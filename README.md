@@ -81,6 +81,37 @@ mvn clean package
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Home Page</b></td>
+      <td align="center"><b>Login Page</b></td>
+      <td align="center"><b>Dashboard</b></td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/871e3149-dbaa-4c08-ad21-955d6b8f6139" alt="Home Screenshot" width="250"/>
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/f93a40dc-6771-495a-9178-dd0ed2322e87" alt="Login Screenshot" width="250"/>
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/da5e835f-907f-4c2e-bb09-9b96440ef1c7" alt="Dashboard Screenshot" width="250"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 🗺️ ER Diagram
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5f93e39d-3823-4438-aaa0-42b0c3447e50" alt="ER Diagram" width="500"/>
+</div>
+
+---
+
 ## 🤩 Usage
 
 - 📝 **User Registration**: Register a new account to get started.
