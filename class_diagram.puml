@@ -1,0 +1,75 @@
+@startuml
+
+class User {
+  - id: int
+  - username: String
+  - password: String
+  - email: String
+  - fullName: String
+  - createdAt: Timestamp
+  - lastLogin: Timestamp
+  - isActive: boolean
+  - resetToken: String
+  - resetTokenExpiry: Timestamp
+}
+
+class Admin {
+  - id: int
+  - username: String
+  - password: String
+  - email: String
+  - fullName: String
+  - createdAt: Timestamp
+  - lastLogin: Timestamp
+  - isActive: boolean
+  - isSuperAdmin: boolean
+  - resetToken: String
+  - resetTokenExpiry: Timestamp
+}
+
+class Session {
+  - id: int
+  - userId: int
+  - startTime: LocalDateTime
+  - endTime: LocalDateTime
+  - description: String
+  - duration: int
+  - status: String
+}
+
+class Goal {
+  - id: int
+  - userId: int
+  - title: String
+  - description: String
+  - targetDate: LocalDate
+  - targetMinutes: int
+  - completedMinutes: int
+  - status: String
+}
+
+class ChatMessage {
+  - id: int
+  - userId: int
+  - message: String
+  - isAiResponse: boolean
+  - createdAt: Timestamp
+}
+
+class UserDAO
+class AdminDAO
+class SessionDAO
+class GoalDAO
+class DBUtil
+class PasswordUtil
+
+UserDAO --> User
+AdminDAO --> Admin
+SessionDAO --> Session
+GoalDAO --> Goal
+
+Session --> User : userId
+Goal --> User : userId
+ChatMessage --> User : userId
+
+@enduml 
