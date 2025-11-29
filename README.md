@@ -20,7 +20,7 @@
 
 - 👤 **User Management**: Registration, login, and profile management.
 - ⏱️ **Session Tracking**: Record and manage focus sessions with start/end times and descriptions.
-- 🎯 **Goal Management**: Set and track productivity goals with target dates and completion metrics.
+- 🎯 **Goal Management**: Set and track productivity goals with target dates and completion metric.
 - 📊 **Productivity Analytics**: Visualize productivity data through charts and reports.
 - 🛡️ **Admin Dashboard**: Manage users, sessions, and goals with administrative privileges.
 - 💬 **Chat/AI Integration**: Interact with an AI assistant for productivity tips and support.
