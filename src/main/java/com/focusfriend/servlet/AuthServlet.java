@@ -239,3 +239,4 @@ public class AuthServlet extends HttpServlet {
         return contentType != null && contentType.contains("application/json");
     }
 } 
+//
